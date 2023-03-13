@@ -105,23 +105,23 @@ body {
 }
 
 .icon4 li a:hover span {
-    color: red;
+    color: #cd313e;
 }
 
 .icon4 li a:hover i {
-    color: red;
+    color: #cd313e;
 }
 
 .icon4 li a i {
     text-decoration: none;
-    color: #000;
+    color: #515151;
     font-size: 24px;
     text-align: center;
 }
 
 .icon4 li a span {
     display: block;
-    color: #000;
+    color: #515151;
     font-size: 13px;
 }
 
@@ -285,6 +285,285 @@ body {
     color: #cd313e;
 }
 
+/* first-section */
+.section {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+.mostofa {
+    grid-area: right;
+    position: relative;
+}
+
+.kamal {
+    grid-area: left;
+    position: relative;
+}
+
+.tufan {
+    grid-area: bottom;
+    position: relative;
+}
+
+.mostofa-kamal {
+    display: grid;
+    grid-template-areas: 'right right right right left '
+        ' right right right right bottom';
+    width: 90%;
+    gap: 12px;
+}
+
+.images1 {
+    height: 510px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.images2 {
+    height: 250px;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.images3 {
+    height: 250px;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.images1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.images2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+
+}
+
+.images3 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+
+}
+
+/* section small area style */
+.section-small {
+    display: flex;
+    justify-content: center;
+}
+
+.small-area {
+    display: grid;
+    grid-template-areas: 'left left right right top top bottom bottom';
+    width: 90%;
+    gap: 12px;
+}
+
+
+
+.free-shipping-1 {
+    grid-area: left;
+    display: flex;
+}
+
+.free-shipping-2 {
+    grid-area: right;
+
+    display: flex;
+}
+
+.free-shipping-3 {
+    grid-area: top;
+    display: flex;
+}
+
+.free-shipping-4 {
+    grid-area: bottom;
+    display: flex;
+}
+
+
+.icon4 a {
+    font-size: 45px;
+    text-decoration: none;
+    color: #cd313e;
+    padding: 0px 10px 20px 10px;
+}
+
+.text4 h5 {
+    color: #333333;
+    font-weight: 700;
+}
+
+.text4 p {
+    color: #767676;
+}
+
+/*-----------------section-Featured-Categories-----------------*/
+.section-Featured-Categories {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.all-Featured-Categories {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 7px;
+    padding-bottom: 72px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.images-text-areas {
+    display: flex;
+    padding: 10px 13px 7px 12px;
+
+}
+
+.images-text-areas:hover {
+    box-shadow: 0px 0px 5px 0px #000;
+}
+
+/*----------images area-----------*/
+.images5 {
+    width: 100%;
+}
+
+.images5 img {
+    width: 115%;
+}
+
+/*----------text area-------------*/
+.lost-main {
+    list-style: none;
+    margin: 0;
+    width: 220px;
+}
+
+.lost-main li {
+    padding: 10px 0px 0px 0px;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.lost-main li:hover {
+    color: #cd313e;
+    cursor: pointer;
+
+}
+
+.list1 {
+
+    font-weight: 700 !important;
+}
+
+.list2 {
+    font-weight: 700 !important;
+}
+
+/*-----------------men's fashion-------------------------------*/
+.men1 {
+    position: relative;
+    grid-area: git;
+}
+
+.men2 {
+    position: relative;
+    grid-area: gitt;
+}
+
+.men3 {
+    position: relative;
+    grid-area: gittt;
+
+}
+
+.men4 {
+    position: relative;
+    grid-area: gitttt;
+
+}
+
+.images6 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.men1:hover .images6 img {
+    transform: scale(1.1);
+
+}
+
+.men2:hover .images6 img {
+    transform: scale(1.1);
+
+}
+
+.men3:hover .images6 img {
+    transform: scale(1.1);
+
+}
+
+.men4:hover .images6 img {
+    transform: scale(1.1);
+
+}
+
+.images6 img {
+    width: 100%;
+    transition: ease-in-out .5s;
+
+}
+
+/*-------------content6-------------*/
+.content6 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0px 20px;
+}
+
+/*---------- section ----------*/
+.section-men-fashion {
+    display: flex;
+    justify-content: center;
+}
+
+.men-fashion {
+    width: 90%;
+    display: grid;
+    grid-template-areas: 'git git git git gitt gitt gittt gittt '
+        'git git git git gitt gitt gitttt gitttt';
+    gap: 10px;
+}
+
+/* grid-template-areas: 'right right right right left '
+' right right right right bottom'; */
 
 /* .responsive */
 @media (max-width:1024px) {
@@ -295,4 +574,74 @@ body {
     .display2 {
         display: block;
     }
+
+    .logo {
+        padding: 22px 0px;
+    }
+
+    .mostofa-kamal {
+        display: grid;
+        grid-template-areas: 'right right right right right'
+            'left left left left left'
+            'bottom bottom bottom bottom bottom';
+        width: 90%;
+        gap: 10px;
+    }
+
+    .images2 {
+        height: 500px;
+    }
+
+    .images3 {
+        height: 500px;
+    }
+
+    .small-area {
+        display: grid;
+        grid-template-areas: 'left left left left right right right right'
+            'top top top top bottom bottom bottom bottom';
+
+    }
+
+    .free-shipping-1 {
+        grid-area: left;
+        display: block;
+        text-align: center;
+    }
+
+    .free-shipping-2 {
+        grid-area: right;
+        text-align: center;
+
+        display: block;
+    }
+
+    .free-shipping-3 {
+        grid-area: top;
+        display: block;
+        text-align: center;
+
+    }
+
+    .free-shipping-4 {
+        grid-area: bottom;
+        display: block;
+        text-align: center;
+
+    }
+
+    .icon4 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .all-Featured-Categories {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+        gap: 7px;
+        padding-bottom: 222px;
+    }
+
 }
